@@ -9,13 +9,13 @@ Out-of-the-box Wordpress docker image
 Usage
 -----
 
-To create the image `tutum/wordpress`, execute the following command on the tutum-docker-wordpress folder:
+To create the image `sowow/wordpress`, execute the following command on the tutum-docker-wordpress folder:
 
-	docker build -t tutum/wordpress .
+	docker build -t sowow/wordpress .
 
 You can now push your new image to the registry:
 
-	docker push tutum/wordpress
+	docker push sowow/wordpress
 
 
 Running your Wordpress docker image
@@ -23,7 +23,7 @@ Running your Wordpress docker image
 
 Start your image:
 
-	docker run -d -p 80:80 tutum/wordpress
+	docker run -d -p 80:80 sowow/wordpress
 
 Test your deployment:
 
